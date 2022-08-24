@@ -5,15 +5,15 @@
     <title>Title</title>
 </head>
 
-<body>
+<body >
 
 <h2>Textarea</h2>
 <p>The textarea element defines a multi-line input field.</p>
 
-<form action="/action_page.php">
+<form action="{% url 'reverse' %}">
     <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
     <br><br>
-    <input type="submit">
+    <input type="submit" value="REVERSE">
 </form>
 
 </body>
